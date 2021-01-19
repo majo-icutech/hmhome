@@ -194,6 +194,6 @@ app.get('/cux/set/long', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
+  console.log('HMHome app listening at http://localhost:' + port);
 });
 
