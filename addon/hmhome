@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd "$(dirname "$0")"
+
+export NODE_PATH=/usr/lib/node_modules
+
+node hmhome.js
